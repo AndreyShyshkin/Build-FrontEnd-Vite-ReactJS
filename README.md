@@ -10,8 +10,8 @@ http://localhost:3001/
 
 ## :hammer_and_wrench: Установка
 * установите [NodeJS](https://nodejs.org/en/)
-* скачайте сборку с помощью [Git](https://git-scm.com/downloads): ```git clone https://github.com/AndreyShyshkin/Webpack.git```
-* перейдите в скачанную папку со сборкой: ```cd Webpack```
+* скачайте сборку с помощью [Git](https://git-scm.com/downloads): ```git clone https://github.com/AndreyShyshkin/webpack-react.git```
+* перейдите в скачанную папку со сборкой: ```cd webpack-react```
 * скачайте необходимые зависимости: ```npm i```
 * чтобы начать работу, введите команду: ```npm run dev``` (режим разработки)
 * чтобы собрать проект, введите команду ```npm run build``` (режим сборки)
