@@ -1,5 +1,5 @@
 import Layout from './layout/layout';
-import Header from './screens/Home/home'
+import Home from './screens/Home/home'
 
 import ReactDOM from "react-dom";
 
