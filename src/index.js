@@ -1,11 +1,11 @@
 import Layout from './layout/layout';
-import Header from './screens/Header/header'
+import Header from './screens/Home/home'
 
 import ReactDOM from "react-dom";
 
 ReactDOM.render(
     <Layout>
-        <Header />
+        <Home />
     </Layout>, 
     document.getElementById("root"));
 
