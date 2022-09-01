@@ -6,7 +6,10 @@
         "node": true
     },
 
-    "extends": "eslint:recommended",
+    "extends": [
+        "eslint:recommended",
+        "react-app"
+        ],
     "parser": "@babel/eslint-parser",
     "parserOptions": {
         "ecmaVersion": 6,
