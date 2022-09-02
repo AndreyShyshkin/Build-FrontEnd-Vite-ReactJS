@@ -39,7 +39,10 @@ Webpack
 
 * Корень папки:
     * ```.babelrc``` — настройки Babel
+    * ```.eslintrc.json``` — настройки ESLint
     * ```.gitignore``` – запрет на отслеживание файлов Git'ом
+    * ```.stylelintrc``` — настройки Stylelint
+    * ```.stylelintignore``` – запрет на отслеживание файлов Stylelint'ом
     * ```package.json``` — список зависимостей
     * ```package-lock.json``` — список зависимостей
     * ```webpack.config.js``` — настройки Webpack
