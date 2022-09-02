@@ -3,9 +3,10 @@
 http://localhost:3001/
 
 ## :fire: Особенности
-* используются препроцессоры [SASS](https://sass-lang.com/)
+* используются препроцессоры [SCSS](https://sass-lang.com/)
 * используется транспайлер [Babel](https://babeljs.io/) для поддержки современного JavaScript (ES6) в браузерах
 * используется [Webpack](https://webpack.js.org/) для сборки JavaScript-модулей
+* используется [Normalize](https://necolas.github.io/normalize.css/) для правильного отображения во всех браузерах
 * используется проверка кода на ошибки перед коммитом
 
 ## :hammer_and_wrench: Установка
