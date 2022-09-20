@@ -1,0 +1,97 @@
+{
+  "name": "vite-react-scss",
+  "description": "Very Fast React + Vite + SCSS",
+  "version": "1.1",
+  "license": "Apache-2.0 licenseT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "prod": "vite build",
+    "release": "standard-version",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "javascript",
+    "scss",
+    "starter"
+  ],
+  "main": "src/index.jsx",
+  "author": "AndreyShyshkin <shyshkinandrey06@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndreyShyshkin/Build-FronEnd-Vite-ReactJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AndreyShyshkin/Build-FronEnd-Vite-ReactJS/issues"
+  },
+  "homepage": "https://github.com/AndreyShyshkin/Build-FronEnd-Vite-ReactJS#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "6.4.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.1.2",
+    "@commitlint/config-conventional": "17.1.0",
+    "@rollup/plugin-alias": "3.1.9",
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/git": "10.0.1",
+    "@testing-library/dom": "8.17.1",
+    "@testing-library/react": "13.4.0",
+    "@testing-library/react-hooks": "8.0.1",
+    "@testing-library/user-event": "14.4.3",
+    "@types/jest": "29.0.2",
+    "@types/node": "18.0.0",
+    "@types/react": "18.0.20",
+    "@types/react-dom": "18.0.6",
+    "@typescript-eslint/eslint-plugin": "5.37.0",
+    "@typescript-eslint/parser": "5.37.0",
+    "@vitejs/plugin-react": "2.1.0",
+    "@vitest/ui": "0.23.2",
+    "autoprefixer": "10.4.10",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "husky": "8.0.1",
+    "postcss": "8.4.16",
+    "postcss-import": "15.0.0",
+    "postcss-load-config": "4.0.1",
+    "postcss-loader": "7.0.1",
+    "postcss-nested": "5.0.6",
+    "prettier": "2.7.1",
+    "sass": "1.54.9",
+    "semantic-release": "19.0.5",
+    "standard-version": "9.5.0",
+    "style-loader": "^3.3.1",
+    "stylelint": "^14.11.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^28.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.3.0",
+    "vite": "^3.1.0",
+    "vite-plugin-babel": "^1.1.2",
+    "vite-plugin-html": "3.2.0",
+    "vitest": "0.23.2"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix"
+    ]
+  },
+  "packageManager": "yarn@4.0.0-rc.18"
+}
