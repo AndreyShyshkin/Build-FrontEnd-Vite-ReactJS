@@ -1,4 +1,4 @@
-# Webpack configuration
+# vite configuration
 
 server: http://localhost:3001/
 
