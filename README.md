@@ -1,4 +1,4 @@
-# vite configuration
+# vite configuration (Проект не активен следите за изменениями тут: https://github.com/AndreyShyshkin/Dictionary)
 
 server: http://localhost:3001/
 
